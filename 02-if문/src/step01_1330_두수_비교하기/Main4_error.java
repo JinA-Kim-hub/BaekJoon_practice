@@ -29,23 +29,37 @@ A와 B가 같은 경우에는 '=='를 출력한다.
 */
 
 
-public class Main4 {
+public class Main4_error {
 	public static void main(String[] args) {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String A = null,B = null;
+		int C,D = 0;
 		
-		String[] str=null;
-		int A = 0,B=0;
+		
+		//런타임 에러 numberformat _ 0905 >> java.lang.NumberFormatException
+		/*
 		try {
-			str = br.readLine().split(" ");
-			A = Integer.parseInt(str[0]);
-			B = Integer.parseInt(str[1]);
+			A=br.readLine();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		try {
+			B=br.readLine();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
-		System.out.println((A>B) ? ">" : ((A==B) ? "==" : "<" ));
+		C = Integer.parseInt(A);
+		D = Integer.parseInt(B);
 		
+		System.out.println((C>D) ? ">" : ((C==D) ? "==" : "<"));
+		try {
+			br.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		*/
 		
 	}
 
