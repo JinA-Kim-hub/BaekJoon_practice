@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 문자열들 사이 특정 문자가 있는 때 이를 구분자로서 문자열을 나눌 때 사용.
 하나의 문자열을 여러 개의 토큰(분리된 문자열 조각)으로 분리하는 클래스.
 
- * 클래스이므로 import 먼저!!! 
+ * 클래스이므로 import 먼저!!! 그리고 당연히 객체 생성 후 이용!!!
  * 
  * StringTokenizer 생성자 :
   

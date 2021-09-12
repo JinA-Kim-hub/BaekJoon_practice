@@ -22,19 +22,20 @@ public class Main5 {
 	public static void main(String[] args) {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String arr =null;
-		
+		String str = null;
+		StringTokenizer st = null;
 		
 		try {
-			StringTokenizer st = new StringTokenizer(br.readLine());
-			while(st.hasMoreTokens())
-				arr = st.nextToken();
+			str = br.readLine();
+			st = new StringTokenizer(str);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
-		System.out.println(arr[0]);
-			
+		int A = Integer.parseInt(st.nextToken());
+		int B = Integer.parseInt(st.nextToken());
+		
+		System.out.println((A>B) ? ">" :((A==B) ? "==" : "<"));	
 		
 		
 		
