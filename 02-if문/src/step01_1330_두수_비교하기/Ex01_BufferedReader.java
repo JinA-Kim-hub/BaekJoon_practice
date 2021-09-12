@@ -6,8 +6,10 @@ import java.io.InputStreamReader;
 
 //BufferdReader 연습
 //숫자 맞추기 게임
-
-public class BufferedReader_ex {
+/*
+BufferedReader 클래스의 메서드로 입력을 읽어들이면, 라인 단위로 읽어들임
+*/
+public class Ex01_BufferedReader {
 
 	public static void main(String[] args) {
 		

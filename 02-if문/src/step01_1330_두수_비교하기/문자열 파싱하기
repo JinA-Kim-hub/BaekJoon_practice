@@ -1,0 +1,30 @@
+//문자열 자르기
+//parse : 문장을 분석하다
+	몇번째부터 몇번째까지~ 로 위치에 해당하는 부분을 잘라서 뽑아내고 싶으면 String클래스의 substring
+	구분자가 중간 중간 있어, 구분자를 기준ㅇ로 문자열을 토막내고 싶으면 String클래스의 spilt메서드 또는 StringTokenizer클래스
+-------------------------------------------------------------------------------------	
+ * substring : 인덱스 기준으로 문자열 자르기.  ========>> 잘라내서 필요한 부분만 똑 떼서 가져옴.
+ 				String 클래스의 substring 메서드.
+ 				문자열 몇번째부터 몇번째까지 추출하고자 할 때 사용.
+ 				
+ 				1) 인덱스 기준이므로 제로 베이스. 즉, 0부터 시작.
+ 				
+ 				2) public String substring (int beginIndex);
+ 				   -> 리턴 값은 String. 문자열.
+ 				
+ 				사용법))
+ 				substring(int beginIndex)
+ 				substring(int beginIndex, int endIndex)
+ 				시작 인덱스부터 끝 인덱스 바로 전까지 추출.
+ 				
+ 				+))
+ 				indexOf : 특정 문자열의 index 위치 반환.
+ 						  String 클래스의 indexOf 메서드.
+ 				
+ 				String a = "You didn't go to France to make it.";
+				System.out.println(a.substring(a.indexOf("go"))); //-> go의 인덱스를 시작위치로 "go to France to make it."가 출력.
+				
+---------------------------------------------------------------------------------------				      
+ 
+ - String 클래스의 split 메서드, StringTokenizer 클래스 ====>> 구분자 기준으로 잘라서 토막 토막으로 가져온다
+ 
