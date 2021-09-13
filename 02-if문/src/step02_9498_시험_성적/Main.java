@@ -1,4 +1,6 @@
 package step02_9498_시험_성적;
+//Scanner 
+//선검증후실행 - elseif구문 사용
 
 import java.util.Scanner;
 
