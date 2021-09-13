@@ -1,4 +1,6 @@
 package step02_9498_시험_성적;
+//BufferedReader 사용 -> Scanner보다 좀더 빠름
+//데이터 검증 - 선검증 후실행
 
 import java.io.BufferedReader;
 import java.io.IOException;
