@@ -42,7 +42,7 @@ public class Main4 {
 
 		if (year >= 1 && year <= 4000) {
 			System.out.println((year % 4 == 0) ? ((year % 100 != 0) ? 1 : 
-												  (year % 400 == 0) ? 1 : 0) : 0);
+							      (year % 400 == 0) ? 1 : 0) : 0);
 		}
 
 	}
