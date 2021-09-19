@@ -23,8 +23,8 @@ public class Main4 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int jumsu = Integer.parseInt(br.readLine());
 		System.out.println((jumsu>=90)? "A" : 
-						   (jumsu>=80)? "B" : 
-						   (jumsu>=70)? "C" :
-						   (jumsu>=60)? "D" : "F");
+				   (jumsu>=80)? "B" : 
+				   (jumsu>=70)? "C" :
+				   (jumsu>=60)? "D" : "F"); 
 	}
 }
