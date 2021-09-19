@@ -13,12 +13,18 @@ import java.io.InputStreamReader;
 //			1. throws처리를 하면 코드는 짧아지지만 try-catch 처리했을 때보다 실행 시간이 조금 더 길어졌다.
 //			2. 삼항연산자를 여러개 중첩해서 사용시에는 굳이 () 안으로 안으로 넣는 식으로 하기 보다 논리 흐름에 따라 작성하면 된다.			
 
+//0920 
+//삼항연산자 코드 정리 . 가독성을 위해.
+//https://jong-hui.github.io/devlog/2020/08/12/(JavaScript)-nested-ternaries-operation/
 
 public class Main4 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int jumsu = Integer.parseInt(br.readLine());
-		System.out.println((jumsu>=90)? "A": (jumsu>=80)? "B" : (jumsu>=70)?"C":(jumsu>=60)?"D":"F");
+		System.out.println((jumsu>=90)? "A" : 
+						   (jumsu>=80)? "B" : 
+						   (jumsu>=70)? "C" :
+						   (jumsu>=60)? "D" : "F");
 	}
 }
