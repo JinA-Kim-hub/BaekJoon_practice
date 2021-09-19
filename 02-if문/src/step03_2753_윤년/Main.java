@@ -7,6 +7,7 @@ import java.util.Scanner;
 // 문제 출처))
 // https://www.acmicpc.net/problem/2753
 
+//데이터 검증(validation) - 정확한 범위를 통한 검증
 public class Main {
 	public static void main(String[] args) {
 		
