@@ -27,7 +27,24 @@ import java.util.StringTokenizer;
 
 
 */
+/*
 
+if문 데이터 검증 없이 데이터 거르기..))
+
+1. H(시간)
+M이 45보다 작을 때는 H에서 1을 빼줘야 한다. 이때,
+H에서 1을 빼고 23을 더했을 때 연산 결과가 24를 초과하면
+24를 나눈 나머지 값을 H에 재할당해준다.
+
+2. M(분)
+M에서 45를 빼고 60을 더했을 때 연산 결과가 60을 초과하면
+60을 나눈 나머지 값을 M에 재할당해준다. 
+
+
+풀이과정 출처))
+https://www.youtube.com/watch?v=xzJmw_SOP_0
+
+*/
 public class Main3 {
 	public static void main(String[] args) {
 
@@ -38,22 +55,18 @@ public class Main3 {
 		try {
 			str = br.readLine();
 			st = new StringTokenizer(str);
-			if(H >= 0 && H <= 23 && M >= 0 && M >= 59) {//데이터검증 추가
 			H = Integer.parseInt(st.nextToken());
 			M = Integer.parseInt(st.nextToken());
-			}
 			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
-		M -= 45;
-		if (M < 0) {
-			M += 60;
-			H = H - 1;
-			if (H < 0)
-				H += 24;
+		if (M < 45) {
+			H = ((H - 1) + 24) % 24;
 		}
+		M -= 45;
+		M = (M + 60) % 60;
 
 		System.out.println(H + " " + M);
 
