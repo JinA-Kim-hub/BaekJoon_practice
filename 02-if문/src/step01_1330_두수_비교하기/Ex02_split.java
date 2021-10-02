@@ -43,6 +43,7 @@ public class Ex02_split {
 		String[] strArray = str.split(" ");
 		for(String a : strArray)
 			System.out.println(a);
+		System.out.println(strArray[0]);//I
 		
 	System.out.println("-------------split() 실습2---------------");
 		
@@ -60,7 +61,6 @@ public class Ex02_split {
 		String[] arr2 = str2.split("\\.");
 		for(String a : arr2)
 			System.out.println(a);
-		
 		
 		
 				
