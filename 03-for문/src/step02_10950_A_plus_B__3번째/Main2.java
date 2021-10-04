@@ -1,12 +1,13 @@
 package step02_10950_A_plus_B__3번째;
 import java.util.Scanner;
  
+
 public class Main2 {
 	public static void main(String args[]) {
  
 		Scanner s = new Scanner(System.in);
  
-		int T = s.nextInt();
+		int T = s.nextInt(); //두 정수를 입력받을 총 줄수
 		int[] sum = new int[T];
 		
 		for(int i=0 ; i <T;i++) {
