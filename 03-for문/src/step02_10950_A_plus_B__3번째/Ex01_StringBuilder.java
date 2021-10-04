@@ -36,7 +36,8 @@ public class Ex01_StringBuilder {
 		br.append(" my");
 		br.append(" life");
 		
-		System.out.println(br);
+		System.out.println(br); 
+
 		
 	}
 
