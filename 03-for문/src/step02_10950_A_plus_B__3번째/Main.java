@@ -15,7 +15,6 @@ String으로 한줄 씩 입력 받는다.
 
 StringTokenizer로 띄어쓰기를 제외한 숫자 2개를 뽑아낸다.
 그 두개의 숫자를 더해서 출력
-
 */
 public class Main {
 	public static void main(String[] args) {
