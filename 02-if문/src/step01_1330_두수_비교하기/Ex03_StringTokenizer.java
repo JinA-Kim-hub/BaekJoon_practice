@@ -19,6 +19,8 @@ import java.util.StringTokenizer;
   
   //구분자 기준으로 문자열 분리
   StringTokenizer s = new StringTokenizer(문자열, 구분자);
+  public StringTokenizer(String str,String delim);	특정 delim으로 문자열을 분리한다.
+  delim : 구분 문자(영어: Delimiter)는 일반 텍스트 또는 데이터 스트림에서 별도의 독립적 영역 사이의 경계를 지정하는 데 사용하는 하나의 문자 혹은 문자들의 배열을 말한다.
   
   //구분자를 기준으로 문자열 분리하되 구분자도 토큰으로 넣을거면 true. 디폴트 값은 false
   StrignTokenizer s = new StringTokenizer(문자열, 구분자, false);
@@ -28,6 +30,7 @@ import java.util.StringTokenizer;
    
   
   // 출처 : https://jhnyang.tistory.com/398
+   		   https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%B6%84_%EB%AC%B8%EC%9E%90
 */
 /*
 	
