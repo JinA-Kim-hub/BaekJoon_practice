@@ -60,6 +60,10 @@ Bufferedwriter
    "\n" 또는 newLine()  사용
    bw.write(s+"\n");
    bw.newLine(); 
+   
+	   새줄 문자(newline)는 텍스트의 한 줄이 끝남을 표시하는 문자 또는 문자열이다. 
+	   개행 문자, 줄바꿈 문자(line break), EOL(end-of-line)과 같은 뜻이다.
+	   출처) https://ko.wikipedia.org/wiki/%EC%83%88%EC%A4%84_%EB%AC%B8%EC%9E%90
 
 */
 //참고))
