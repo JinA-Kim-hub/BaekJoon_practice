@@ -87,7 +87,7 @@ public class Ex01_BufferedReader_BufferedWriter {
 		
 		// 버퍼 및 스트림 뒷정리 
 		bw.flush(); // 버퍼의 남은 데이터를 모두 쓰기
-		bw.close(); // 스트림 종료
+		bw.close(); // 스트림 종료 **** 스트림 닫는 것은 필수이다!!!!
 		
 		
 		
