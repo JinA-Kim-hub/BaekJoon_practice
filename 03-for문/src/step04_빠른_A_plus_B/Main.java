@@ -28,15 +28,17 @@ public class Main {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int T = Integer.parseInt(br.readLine());//입력할 총 줄 갯수
-		StringBuilder sb = new StringBuilder();
+		
 		StringTokenizer st;
+		
 		if( T <= 1000000) {
 			for(int i = 0; i<T; i++) {
 				st = new StringTokenizer(br.readLine()," ");
-				sb.append(Integer.parseInt(st.nextToken())+Integer.parseInt(st.nextToken()));
+				bw.write((Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken()))+ "\n");
 			}
 		}
-		bw.write(String.valueOf(sb));
+		br.close();
+		bw.close();
 	
 		
 		
