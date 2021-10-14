@@ -67,8 +67,8 @@ Bufferedwriter
 
 */
 //참고))
-//https://m.blog.naver.com/ka28/221850826909
-//https://code0xff.tistory.com/10
+// https://m.blog.naver.com/ka28/221850826909
+// https://code0xff.tistory.com/10
 
 public class Ex01_BufferedReader_BufferedWriter {
 	public static void main(String[] args) throws NumberFormatException, IOException {
