@@ -9,7 +9,12 @@ import java.util.Scanner;
 // initialized :
 // 반복 사이클 수행 이전에 효율적인 시작 절차를 결정하기 위하여 필요한 예비 단계.
 // 지역변수 초기화를 안해줬을 경우 -> The local variable A may not have been initialized
+// 출처)) https://en.dict.naver.com/#/entry/enko/3be7069751094111ae00e4365622f491
 
+// List와 Set의 차이 : 
+//	List -> 중복 허용 , 순서 O
+//  Set  -> 중복 X , 순서 X 
+// 참고)) https://codechacha.com/ko/java-difference-between-list-and-set/
 public class Main {
 	public static void main(String[] args) {
 		
