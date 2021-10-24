@@ -13,13 +13,10 @@ public class Main2 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-		StringTokenizer st = new StringTokenizer(br.readLine());
 		int[] userNums = new int[9];
-		while(st.hasMoreTokens()) { 
 			for (int i = 0; i < userNums.length; i++) {
-				userNums[i] = Integer.parseInt(st.nextToken()); // 데이터 입력 및 배열에 저장
+				userNums[i] = Integer.parseInt(br.readLine()); // 데이터 입력 및 배열에 저장
 			}
-		}	
 		
 		int count=0;
 		int max=0;
