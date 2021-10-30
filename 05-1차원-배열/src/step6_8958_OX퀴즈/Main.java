@@ -34,3 +34,14 @@ public class Main {
 		}
 	}
 }
+/*
+
+5
+OOXXOXXOOO
+OOXXOOXXOO
+OXOXOXOXOXOXOX
+OOOOOOOOOO
+OOOOXOOOOXOOOOX
+
+
+*/
