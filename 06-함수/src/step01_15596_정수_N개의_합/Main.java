@@ -1,4 +1,4 @@
-package step01_정수_N개의_합;
+package step01_15596_정수_N개의_합;
 
 
 /*
