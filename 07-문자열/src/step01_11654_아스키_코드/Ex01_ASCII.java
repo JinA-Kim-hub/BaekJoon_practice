@@ -31,14 +31,14 @@ public class Ex01_ASCII {
 		Scanner s = new Scanner(System.in);
 		
 		//문자 -> 숫자
-		char ch= s.next().charAt(0);
-		int ich = (int)ch;
+		char ch= s.next().charAt(0);//0 
+		int ich = (int)ch;//48
 		
 		System.out.println(ich);
 		
 		//숫자 -> 문자
-		int ic = s.nextInt();
-		char c = (char)ic;
+		int ic = s.nextInt();//48
+		char c = (char)ic;//0
 		System.out.println(c);
 		
 		
